@@ -26,7 +26,6 @@
 ### Possible improvements
 
 - Separate Employee and Company for better context bounding (delete possibility to create Employee via Company creation)
-- Add event to rollback users if company didn't created
 - Use Outbox pattern instead of SystemLog creating in repository method
 - Add versioning in API to allow for future changes to the contract and a smooth transition of services to the new contract.
 - Using SSO authentication
